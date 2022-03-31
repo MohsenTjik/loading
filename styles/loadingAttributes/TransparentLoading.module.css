@@ -1,0 +1,17 @@
+.transparent_loading {
+  width: 55px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: trans_parent 1.5s linear infinite;
+}
+@keyframes trans_parent {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.transparent_loading img {
+  width: 100%;
+  height: 100%;
+}

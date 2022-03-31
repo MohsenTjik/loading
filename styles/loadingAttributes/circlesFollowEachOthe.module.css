@@ -1,0 +1,153 @@
+.parent_position {
+  width: 25%;
+  height: 5%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle_1 {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: black;
+  position: absolute;
+  animation: circle_1 5s linear forwards;
+  opacity: 0;
+}
+@keyframes circle_1 {
+  0% {
+    left: -100px;
+    opacity: 0;
+  }
+  10% {
+    left: 60px;
+    opacity: 1;
+  }
+
+  90% {
+    left: 100px;
+    opacity: 1;
+  }
+  100% {
+    left: 200px;
+    opacity: 0;
+  }
+}
+
+.circle_2 {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: black;
+  position: absolute;
+  animation: circle_2 5s linear forwards;
+  opacity: 0;
+  animation-delay: 0.5s;
+}
+@keyframes circle_2 {
+  0% {
+    left: -100px;
+    opacity: 0;
+  }
+  10% {
+    left: 45px;
+    opacity: 1;
+  }
+  90% {
+    left: 85px;
+    opacity: 1;
+  }
+  100% {
+    left: 200px;
+    opacity: 0;
+  }
+}
+
+.circle_3 {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: black;
+  position: absolute;
+  animation: circle_3 5s linear forwards;
+  opacity: 0;
+  animation-delay: 1s;
+}
+@keyframes circle_3 {
+  0% {
+    left: -100px;
+    opacity: 0;
+  }
+  10% {
+    left: 30px;
+    opacity: 1;
+  }
+  90% {
+    left: 70px;
+    opacity: 1;
+  }
+  100% {
+    left: 200px;
+    opacity: 0;
+  }
+}
+
+.circle_4 {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: black;
+  position: absolute;
+  animation: circle_4 5s linear forwards;
+  opacity: 0;
+  animation-delay: 1.5s;
+}
+@keyframes circle_4 {
+  0% {
+    left: -100px;
+    opacity: 0;
+  }
+  10% {
+    left: 15px;
+    opacity: 1;
+  }
+  90% {
+    left: 55px;
+    opacity: 1;
+  }
+  100% {
+    left: 200px;
+    opacity: 0;
+  }
+}
+
+.circle_5 {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: black;
+  position: absolute;
+  animation: circle_5 5s linear forwards;
+  opacity: 0;
+  animation-delay: 2s;
+}
+@keyframes circle_5 {
+  0% {
+    left: -100px;
+    opacity: 0;
+  }
+  10% {
+    left: 0px;
+    opacity: 1;
+  }
+  90% {
+    left: 40px;
+    opacity: 1;
+  }
+  100% {
+    left: 200px;
+    opacity: 0;
+  }
+}

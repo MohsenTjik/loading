@@ -1,0 +1,10 @@
+.loading_icon {
+  width: 55px;
+  height: 55px;
+  animation: trans_parent 1s linear infinite;
+}
+@keyframes trans_parent {
+  100% {
+    transform: rotate(360deg);
+  }
+}

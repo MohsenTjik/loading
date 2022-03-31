@@ -1,0 +1,120 @@
+.semi_circle_1 {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.205);
+  position: absolute;
+}
+
+.semi_circle_2 {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.205);
+  border-top: none;
+  border-left: none;
+  position: absolute;
+  animation: semi_circle_2 1s linear infinite;
+}
+@keyframes semi_circle_2 {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.semi_circle_3 {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.205);
+  border-top: none;
+  border-left: none;
+  position: absolute;
+  animation: semi_circle_3 3s linear infinite;
+}
+@keyframes semi_circle_3 {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.semi_circle_4 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.205);
+  border-top: none;
+  border-left: none;
+  position: absolute;
+  animation: semi_circle_4 2s linear infinite;
+}
+@keyframes semi_circle_4 {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.semi_circle_5 {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.205);
+  border-top: none;
+  border-left: none;
+  position: absolute;
+  animation: semi_circle_5 1.5s linear infinite;
+}
+@keyframes semi_circle_5 {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.semi_circle_6 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.205);
+  border-top: none;
+  border-left: none;
+  position: absolute;
+  animation: semi_circle_6 5s linear infinite;
+}
+@keyframes semi_circle_6 {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.semi_circle_7 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.205);
+  border-top: none;
+  border-left: none;
+  position: absolute;
+  animation: semi_circle_7 1s linear infinite;
+}
+@keyframes semi_circle_7 {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.semi_circle_8 {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.205);
+  border-top: none;
+  border-left: none;
+  position: absolute;
+  animation: semi_circle_8 3s linear infinite;
+}
+@keyframes semi_circle_8 {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.semi_circle_9 {
+  width: 1px;
+  height: 1px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.205);
+  position: absolute;
+}

@@ -1,0 +1,77 @@
+.nime_shaban {
+  width: 100%;
+  height: 100%;
+  /* background-color: rgba(165, 42, 42, 0.212); */
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* animation: nime_shaban 2s linear infinite;
+}
+@keyframes nime_shaban {
+  100% {
+    transform: rotate(360deg);
+  }
+} */
+
+.cheraghe_aval {
+  width: 1px;
+  background-color: gray;
+  position: absolute;
+  top: 115px;
+  animation: cheraghe_aval 1s linear infinite alternate-reverse;
+}
+@keyframes cheraghe_aval {
+  0% {
+    height: 0px;
+  }
+  100% {
+    height: 55px;
+  }
+}
+.cheraghe_dovom {
+  height: 1px;
+  background-color: gray;
+  position: absolute;
+  left: 165px;
+  animation: cheraghe_dovom 1s linear infinite alternate-reverse;
+}
+@keyframes cheraghe_dovom {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 55px;
+  }
+}
+.cheraghe_sevom {
+  height: 1px;
+  background-color: gray;
+  position: absolute;
+  right: 165px;
+  animation: cheraghe_dovom 1s linear infinite alternate-reverse;
+}
+@keyframes cheraghe_dovom {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 55px;
+  }
+}
+.cheraghe_chaharom {
+  width: 1px;
+  background-color: gray;
+  position: absolute;
+  bottom: 115px;
+  animation: cheraghe_aval 1s linear infinite alternate-reverse;
+}
+@keyframes cheraghe_aval {
+  0% {
+    height: 0px;
+  }
+  100% {
+    height: 55px;
+  }
+}

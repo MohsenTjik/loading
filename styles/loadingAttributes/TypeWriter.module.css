@@ -1,0 +1,99 @@
+.type_writer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  letter-spacing: 0.5rem;
+}
+.one {
+  animation: one 0.1s linear 0s forwards;
+  opacity: 0;
+}
+@keyframes one {
+  100% {
+    opacity: 1;
+  }
+}
+.two {
+  animation: two 0.1s linear 0.5s forwards;
+  opacity: 0;
+}
+@keyframes two {
+  100% {
+    opacity: 1;
+  }
+}
+.three {
+  animation: three 0.1s linear 1s forwards;
+  opacity: 0;
+}
+@keyframes three {
+  100% {
+    opacity: 1;
+  }
+}
+.four {
+  animation: four 0.1s linear 1.5s forwards;
+  opacity: 0;
+}
+@keyframes four {
+  100% {
+    opacity: 1;
+  }
+}
+.five {
+  animation: five 0.1s linear 2s forwards;
+  opacity: 0;
+}
+@keyframes five {
+  100% {
+    opacity: 1;
+  }
+}
+.six {
+  animation: six 0.1s linear 2.5s forwards;
+  opacity: 0;
+}
+@keyframes six {
+  100% {
+    opacity: 1;
+  }
+}
+.seven {
+  animation: seven 0.1s linear 3s forwards;
+  opacity: 0;
+}
+@keyframes seven {
+  100% {
+    opacity: 1;
+  }
+}
+.eight {
+  animation: eight 0.1s linear 3.5s forwards;
+  opacity: 0;
+}
+@keyframes eight {
+  100% {
+    opacity: 1;
+  }
+}
+.nine {
+  animation: nine 0.1s linear 4s forwards;
+  opacity: 0;
+}
+@keyframes nine {
+  100% {
+    opacity: 1;
+  }
+}
+.ten {
+  animation: ten 0.1s linear 4.5s forwards;
+  opacity: 0;
+}
+@keyframes ten {
+  100% {
+    opacity: 1;
+  }
+}
